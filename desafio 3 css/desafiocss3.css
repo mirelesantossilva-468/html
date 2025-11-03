@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+   
+}
+
+
+header {
+    margin-top: 44px;
+    font-size: 24px;
+    margin-left: 76px;
+    font-weight: 600px;
+    color: #989d9c;
+    cursor: pointer;
+
+}
+
+.link-home {
+    margin-right: 23px;
+}
+
+.link-about {
+    margin-right: 23px;
+}
+
+.link-product {
+    margin-right: 23px;
+}
+
+.link-service {
+    margin-right: 23px;
+}
+
+.link-contact {
+    margin-right: 23px;
+}
+
+
+
+.purple-button {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 29px;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.img-pet-woman {
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    margin-top: 144px;
+}
+
+section {
+    display: inline-block;
+}
+
+H1 {
+    font-weight:900px;
+    font-size: 100px;
+    line-height: 100%;
+    height:122px;
+    color: #515151;
+    margin-left: 86px;
+    margin-top: 144px;
+}
+
+h2 {
+    font-weight: 500px;
+    font-size: 50px;
+    line-height: 100%;
+    color: #515151;
+    margin-left: 86px;
+    margin-top: 0;
+    height:71px;
+
+}
+
+p {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 100%;
+    width: 515px;
+    color: #848484;
+    margin-left: 86px;
+    margin-top: 32px;
+
+}
+
+.green-button {
+    background: #ADFF00;
+    border-radius: 50px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 86px;
+    margin-top: 65px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+@media screen and (max-width:530px) 
+{
+    header {
+        display:none;
+    }
+    p {
+        display:none;
+    }
+    .img-pet-woman{
+        width:354px;
+        height:317px;
+        margin-left: 14px;
+        margin-top:149px; 
+    }
+   
+    h1{
+        font-size:50px;
+        width:263px;
+        height:52px;
+        margin-top:24px;
+    }
+
+    h2{
+        font-size:28px;
+        width:232px;
+        height:37px;
+        margin-top:7px;
+    }
+    .green-button {
+        width:239px;
+        height:64px;
+        margin-top:17;
+        position: relative;
+        margin: 603,75,133,76;
+        collor:#FFFFFF
+
+}
+}
